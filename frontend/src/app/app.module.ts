@@ -21,7 +21,6 @@ import { HomeComponent } from './views/home/home.component';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
 import { RedDirective } from './directives/red.directive';
 import { ForDirective } from './directives/for.directive';
-import { ProductCreateComponent } from './components/product/product-create/product-create.component';
 
 import { HttpClientModule } from '@angular/common/http';
 
@@ -31,12 +30,14 @@ import { MatInputModule } from '@angular/material/input';
 import { ProductReadComponent } from './components/product/product-read/product-read.component';
 import { MatTableModule } from '@angular/material/table';
 
+import { ProductCreateComponent } from './components/product/product-create/product-create.component';
+import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
+import { ProdutcDeleteComponent } from './components/product/product-delete/product-delete.component';
+
+
 import { LOCALE_ID } from '@angular/core';
 import localPt from '@angular/common/locales/pt';
 import { registerLocaleData } from '@angular/common';
-
-import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
-import { ProdutcDeleteComponent } from './components/product/product-delete/product-delete.component';
 
 registerLocaleData(localPt);
 
